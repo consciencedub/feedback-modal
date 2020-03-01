@@ -1,0 +1,81 @@
+html, body {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.card {
+    width: 500px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.headline {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub {
+    display: flex;
+    padding-top: 15px;
+    height: 30px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+
+}
+
+.emoticons button.active {
+    filter: saturate(1);
+    border-radius: 100%;
+
+}
+
+.emoticons button {
+    filter: saturate(0);
+    border-radius: 100%;
+
+}
+
+.emoticons {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;    
+    border-radius: 50%;
+}
+
+.emoticons img {
+width: 100px;
+filter: drop-shadow(4px 4px 5px gray);  
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    width: auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button.button {
+    background-color: rgb(5, 40, 236);
+    color: white;
+    height: 44px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+
