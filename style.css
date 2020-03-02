@@ -78,4 +78,8 @@ button.button {
     font-size: medium;
 }
 
+button {
+    border: 0;
+}
+
 
